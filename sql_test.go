@@ -219,6 +219,7 @@ func TestPrepareStatement(t *testing.T) {
 	}
 }
 
+// alamak mantap juga tx
 func TestTransaction(t *testing.T) {
 	db := GetConnection()
 	defer db.Close()
