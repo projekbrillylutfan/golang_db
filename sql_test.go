@@ -148,7 +148,7 @@ func TestSqlInjectionSafe(t *testing.T) {
 		fmt.Println("Gagal Login")
 	}
 }
-
+// matntap parameter statement
 func TestExecSqlParameter(t *testing.T) {
 	db := GetConnection()
 	defer db.Close()
